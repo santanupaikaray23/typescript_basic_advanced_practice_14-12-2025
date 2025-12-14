@@ -1,0 +1,47 @@
+Typescript
+-----------
+Superset of javascript developed by microsoft.
+
+Superset - Anything we can do in javascript we can do in typescript.
+
+Compiles into javascript(browser can only read javascript)
+
+Can be easily integrated to javascript projects.
+
+Designed for development of large applications
+
+What does it offer?
+----------------------
+Static type checking
+Class based objects
+Modularity
+ES6 features(let, const)
+
+Types
+---------
+String
+Number
+Boolean
+Array
+Anything
+Void
+Tuple
+Enum
+Generics
+
+Class based objects
+--------------------
+Object Oriented Programming
+No Prototypes
+Encapsulations
+Inheritance
+Access Modifiers
+
+Enums
+-----
+Allows us to define a set of named constants.
+
+Generics
+----------
+When writing programs, One of the most importants ascepts is to build reuseable 
+components. Generics offers a way to create reuseable components. 
