@@ -61,3 +61,10 @@ function add(value1, value2) {
     return value1 + value2;
 }
 console.log(add("Santanu", "Paikaray"));
+function add(value1, value2) {
+    console.log(value1);
+    console.log(value2);
+    return value1 + value2;
+}
+console.log(add(5, 10));
+console.log(add("Santanu", "Paikaray"));

@@ -68,3 +68,20 @@ function add(value1:any, value2:any): string {
     return value1 + value2;
 }
 console.log(add("Santanu", "Paikaray"));
+
+function add<T>(value1: T, value2: T): void {
+    console.log(value1)
+    console.log(value2)
+    // return value1 + value2;
+}   
+console.log(add<number>(5, 10));
+console.log(add<string>("Santanu", "Paikaray"));
+
+let myvoid:void = undefined;
+console.log(myvoid);
+
+let myNull:null = null;
+console.log(myNull);
+
+Let myUndefined: undefined = null;
+console.log(myUndefined)
